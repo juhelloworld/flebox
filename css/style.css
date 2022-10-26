@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #122526ff;
+    background-size: cover;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+nav div {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    margin-left: 2%;
+    align-items: center;
+    height: 60px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.container_top>div:nth-child(2) {
+    /* border: 1px solid blue; */
+    /* margin-left: 70%; */
+    /* Using margin I have problem when reduce size */
+    /* flex-grow: 0.96; */
+    flex-basis: 67%;
+}
+
+.container_image {
+    display: flex;
+    height: 500px;
+    /* border: 1px solid purple; */
+    /* justify-content: center; */
+    background-image: url(../img/img_top.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    align-items: center;
+    box-shadow: -5px 6px 20px 0px;
+
+}
+
+.container_image h1 {
+    font-family: "Snell Roundhand", cursive;
+    /* font-family: "Open Sans", sans-serif; */
+    color: #122526ff;
+    font-size: 80px;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-left: 10%;
+    font-style: italic;
+    opacity: 0.3;
+}
+
+.container_image div {
+    /* border: 1px solid red; */
+    width: 30%;
+}
+
+.container_body {
+    /* border: 1px solid red; */
+    display: flex;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    height: 900px;
+    flex-direction: column;
+}
+
+.container_body1 {
+    display: flex;
+    padding: 3%;
+    border: 1px solid #cacaca;
+    height: 30%;
+    /* width: auto; */
+    margin: 4%;
+    align-items: center;
+    text-align: center;
+    text-align: justify;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    color: #afaaaa;
+    font-size: 20px;
+}
+
+.container_body1 p {
+    font-family: "Open Sans", sans-serif;
+    color: #122526ff;
+    font-size: 15px;
+
+}
+
+.container_body2 {
+    /* border: 1px solid blue; */
+    display: flex;
+    /* padding: 0; */
+    height: 60%;
+    /* width: auto; */
+    /* margin: 4%; */
+    /* align-items: center; */
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 4%;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.container_body2 div {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red; */
+    margin: 0;
+    box-shadow: #8d8d8d 11px 10px 7px 0px;
+}
+
+.bottom {
+    background-color: #122526ff;
+    height: 300px;
+    /* padding: 0px; */
+    border: 0;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+
+.bottom2 {
+    /* border: 1px solid yellow; */
+    display: flex;
+    height: 80%;
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    /* why is not working??? */
+    justify-content: space-around;
+    /* why is not working??? */
+    /* width: 80%; */
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.bottom2 div {
+    /* border: 1px solid blue; */
+    display: flex;
+    width: 350px;
+    height: 200px;
+    vertical-align: baseline;
+}
+
+.bottom2 div p {
+    text-align: justify;
+    font-family: "Open Sans", sans-serif;
+    color: #ccc;
+    font-size: 15px;
+}
+
+.container_top a {
+    text-decoration: none;
+    color: white;
+}
+
+.container_body_menu {
+    border: 1px solid red;
+    display: flex;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    height: 800px;
+    flex-direction: column;
+}
+
+.container_body1_menu {
+    display: flex;
+    padding: 3%;
+    border: 1px solid #cacaca;
+    height: 50%;
+    /* width: auto; */
+    margin: 4%;
+    align-items: center;
+    text-align: center;
+    text-align: justify;
+    flex-direction: column;
+    height: 800px;
+}
